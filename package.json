@@ -1,5 +1,22 @@
 {
-    "name" : "node-demo-onaws-ec2",
-    "version" : "0.0.1"
-    
+  "name": "demo-onaws-ec2",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivommishra/nodejs-demo-on-aws-ec2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivommishra/nodejs-demo-on-aws-ec2/issues"
+  },
+  "homepage": "https://github.com/shivommishra/nodejs-demo-on-aws-ec2#readme",
+  "dependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
