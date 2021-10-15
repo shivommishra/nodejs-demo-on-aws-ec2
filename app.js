@@ -2,7 +2,7 @@ var http = require('http');
 
 function onRequest(request,response){
     response.writeHead(200, {'Content-Type': 'text/plain'});
-    response.write('Fujkhkjhkjhkhjkljh');
+    response.write('test new');
     response.end();
 }
 
